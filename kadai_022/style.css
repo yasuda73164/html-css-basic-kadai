@@ -36,12 +36,12 @@ h2 {
   border-bottom: dotted rgb(236, 122, 122);
 }
 h2::before {
-  content: "●"
+  content: "●";
   color: rgb(239, 111, 139);
 }
 .contents p:nth-of-type(2)::first-letter {
   font-weight: bold;
-  color: rgb(97, 206, 249)㊤
+  color: rgb(97, 206, 249);
 }
 .contents img {
   margin: 10px 0;
@@ -68,6 +68,6 @@ a:hover {
     font-size: 25px;
   }
   #parent {
-    display: flex;
+    flex-direction: column;
   }
 }
