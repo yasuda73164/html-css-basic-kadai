@@ -1,8 +1,12 @@
-const date = new Date("2024-10-12");
-const [month, day, year] = [
-  date.getMonth(),
-  date.getDate(),
-  date.getFullYear(),
-];
+//関数を宣言
+const today = new Date();
 
-console.log(year + "年"+ (month + 1) +"月" + day + "日");
+// 各部品の取得
+const year = today.getFullYear();
+const month = today.getMonth() + 1;
+const day = today.getDate();
+
+// コンソールで出力
+console.log(year + '年' + month + '月' + day + '日');
+
+
